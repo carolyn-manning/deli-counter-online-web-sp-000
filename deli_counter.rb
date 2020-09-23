@@ -7,5 +7,5 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
-  puts "#{name} #{katz_deli[katz_deli.length]}"
+  puts "Welcome, #{name}. You are number #{katz_deli[katz_deli.length]}"
 end
