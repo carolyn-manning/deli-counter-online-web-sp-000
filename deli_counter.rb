@@ -3,7 +3,7 @@ katz_deli = []
 def line(katz_deli)
   if katz_deli.length == 0
     puts "The line is currently empty."
-  elsif katz.deli.length > 0
+  elsif katz_deli.length > 0
     written_line = []
     number_in_line = 1
     katz_deli.each do |patron|
