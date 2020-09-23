@@ -7,7 +7,7 @@ def line(katz_deli)
     written_line = []
     number_in_line = 1
     katz_deli.each do |patron|
-        written_line << "#{number_in_line}. #{patron}
+        written_line << "#{number_in_line}. #{patron}"
         number_in_line += 1
     end
     puts "The line is currently: " << written_line.join(" ")
